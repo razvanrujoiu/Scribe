@@ -12,6 +12,8 @@
 		E5CAA01F22173E0500DD42E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5CAA01D22173E0500DD42E4 /* Main.storyboard */; };
 		E5CAA02122173E0800DD42E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5CAA02022173E0800DD42E4 /* Assets.xcassets */; };
 		E5CAA02422173E0800DD42E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5CAA02222173E0800DD42E4 /* LaunchScreen.storyboard */; };
+		E5CAA02E2217434900DD42E4 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CAA02D2217434900DD42E4 /* CircleButton.swift */; };
+		E5CAA03022174A9300DD42E4 /* recording.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E5CAA02F22174A9200DD42E4 /* recording.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E5CAA02022173E0800DD42E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5CAA02322173E0800DD42E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5CAA02522173E0900DD42E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5CAA02D2217434900DD42E4 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		E5CAA02F22174A9200DD42E4 /* recording.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = recording.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,40 @@
 		E5CAA01822173E0500DD42E4 /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				E5CAA03122174A9900DD42E4 /* Resources */,
+				E5CAA02C2217432600DD42E4 /* View */,
+				E5CAA02B2217431C00DD42E4 /* Controller */,
 				E5CAA01922173E0500DD42E4 /* AppDelegate.swift */,
-				E5CAA01B22173E0500DD42E4 /* ViewController.swift */,
 				E5CAA01D22173E0500DD42E4 /* Main.storyboard */,
 				E5CAA02022173E0800DD42E4 /* Assets.xcassets */,
 				E5CAA02222173E0800DD42E4 /* LaunchScreen.storyboard */,
 				E5CAA02522173E0900DD42E4 /* Info.plist */,
 			);
 			path = Scribe;
+			sourceTree = "<group>";
+		};
+		E5CAA02B2217431C00DD42E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5CAA01B22173E0500DD42E4 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5CAA02C2217432600DD42E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5CAA02D2217434900DD42E4 /* CircleButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5CAA03122174A9900DD42E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5CAA02F22174A9200DD42E4 /* recording.m4a */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +154,7 @@
 			files = (
 				E5CAA02422173E0800DD42E4 /* LaunchScreen.storyboard in Resources */,
 				E5CAA02122173E0800DD42E4 /* Assets.xcassets in Resources */,
+				E5CAA03022174A9300DD42E4 /* recording.m4a in Resources */,
 				E5CAA01F22173E0500DD42E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5CAA02E2217434900DD42E4 /* CircleButton.swift in Sources */,
 				E5CAA01C22173E0500DD42E4 /* ViewController.swift in Sources */,
 				E5CAA01A22173E0500DD42E4 /* AppDelegate.swift in Sources */,
 			);
